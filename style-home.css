@@ -110,7 +110,7 @@
     -moz-box-shadow: inherit;
 }
 .header .img-logo {
-    margin-top: 22px;
+    /* margin-top: 22px; */
 }
 .header .text-logo{
 	margin-top:30px;
@@ -2035,7 +2035,8 @@ p.has-large-font-size {
     margin-bottom: 10px;
     font-weight: 400;
     display: inline-block;
-    background: #2E2751;
+    /* background: #2E2751; */
+    background:#21BEEE;
     padding: 8px 20px;
     font-size: 16px;
 }
@@ -2044,17 +2045,21 @@ p.has-large-font-size {
     position: absolute;
     left: 0;
     bottom: -8px;
-    border-top: 8px solid #2E2751;
+    /* border-top: 8px solid #2E2751;
+     */
+    border-top: 8px solid #21BEEE;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
 .hero-slider .hero-text h1 {
-    color: #2E2751;
+    /* color: #2E2751; */
+    color: #fff;
     font-size: 50px;
     font-weight: bold;
     line-height: 65px;
     margin-bottom: 20px;
     padding-bottom: 20px;
+    text-shadow: 1px 1px .6px #f3a712;
 }
 .hero-slider .hero-text h1::before {
     content: "";
@@ -2069,8 +2074,9 @@ p.has-large-font-size {
 	max-width:80%;
 }
 .hero-slider .hero-text p {
-    color: #666;
+    color: #fff;
     font-size: 15px;
+    font-weight: bold;
 }
 .hero-slider .hero-text .button {
 	margin-top: 30px;
